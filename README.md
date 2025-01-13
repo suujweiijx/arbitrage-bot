@@ -82,8 +82,8 @@ arbitrage-bot/
 ```plaintext
 | Home Team              | Away Team             | League              | Profit % | Home Odds | Away Odds | Draw Odds | Home Bookmaker | Away Bookmaker | Draw Bookmaker |
 |------------------------|-----------------------|---------------------|----------|-----------|-----------|-----------|----------------|----------------|----------------|
-| Arkansas Golden Lions  | Prairie View Panthers| NCAA Basketball     | 1.26     | 2.55      | 1.68      | None      | Bovada         | FanDuel        | None           |
-| OFI Crete              | Levadiakos           | Super League Greece | 54.48    | 21.00     | 29.00     | 2.68      | DraftKings     | DraftKings     | Bovada         |
+| Arkansas Golden Lions  | Prairie View Panthers | NCAA Basketball     | 1.26     | 2.55      | 1.68      | None      | Bovada         | FanDuel        | None           |
+| OFI Crete              | Levadiakos            | Super League Greece | 54.48    | 21.00     | 29.00     | 2.68      | DraftKings     | DraftKings     | Bovada         |
 ```
 
 ---
