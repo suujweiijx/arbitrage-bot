@@ -53,16 +53,15 @@ A Python-based dashboard for identifying and tracking arbitrage opportunities in
    ```bash
    pip install -r requirements.txt
    
-4. **Set Your Odds API Key** Open the main.py file and replace the placeholder with your actual API key from The Odds API.
-   ```bash
+4. **Set Your Odds API Key** <br> Open the main.py file and replace the placeholder with your actual API key from The Odds API.
+   ```python
    API_KEY = "your_api_key_here"
-
    
 5. **Run the Streamlit Application**
    ```bash
    streamlit run main.py
    
-6. **View the Dashboard** Open the URL provided by Streamlit in your terminal (e.g., http://localhost:8501) to view the interactive dashboard.
+6. **View the Dashboard** <br> Open the URL provided by Streamlit in your terminal (e.g., http://localhost:8501) to view the interactive dashboard.
 
 ---
 
