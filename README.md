@@ -1,6 +1,6 @@
 # Real-Time Arbitrage Dashboard
 
-A Python-based dashboard for identifying and tracking arbitrage opportunities in real-time using **Odds API**. Built with **Streamlit** for visualization and **pandas** for data processing.
+This project tracks and visualizes **real-time sports betting arbitrage opportunities**. The core idea is simple: if the **implied probabilities** from different bookmakers for all outcomes of an event add up to **less than 1**, there's a chance to lock in **risk-free profit** by betting on each outcome proportionally. 
 
 ---
 
@@ -85,27 +85,6 @@ arbitrage-bot/
 | OFI Crete              | Levadiakos            | Super League Greece | 54.48    | 21.00     | 29.00     | 2.68      | DraftKings     | DraftKings     | Bovada         |
 ```
 
----
-
-## Technical Details
-
-### Arbitrage Formula
-
-1. Calculate the **implied probability** for each outcome using the formula: 
-   ```plaintext
-   Implied Probability = 1 / Odds
-   ```
-
-2. Sum the implied probabilities for all outcomes:
-   ```plaintext
-   Total Implied Probability = P(Home) + P(Away) + P(Draw)
-   ```
-   
-3. If the total implied probability is **less than 1**, there is an arbitrage opportunity. The potential profit percentage is calculated as:
-   ```plaintext
-   Profit % = (1 - Total Implied Probability) * 100
-   ```
-   
 ---
 
 ## Future Improvements
